@@ -1,8 +1,4 @@
 [build]
-function = "functions/"
+functions = "functions/"
 publish = "src"
 
-[[redirects]]
-from = "/*"
-to = "index.html"
-status = 200
