@@ -3,7 +3,7 @@ import Styles from "./App.module.css";
 import Searchbar from "./components/Searchbar";
 import MovieList from "./components/MovieList";
 
-const NetlifyAPI = "/.netlify/functions/movie-key/movie-key.js";
+const NetlifyAPI = "/.netlify/functions/movie-key.js";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
